@@ -28,7 +28,7 @@ export default function Home() {
       <div className={`container-fluid ${styles.body}`}>
         <main className={`container-fluid ${styles.main}`}>
           <h1 className={styles.head}>MAIL READER</h1>
-          <p>Click the button below to download the APK file:</p>
+          <p className="text-center">Click the button below to download the APK file:</p>
           <a className={styles.button} href={apkUrl} download>
             Download APK
           </a>
